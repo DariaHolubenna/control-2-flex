@@ -1,0 +1,950 @@
+    body {
+        margin: 0;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        width: 1700px;
+        position: relative;
+        z-index: 2;
+    }
+    
+    nav ul {
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .topmenu li {
+        display: inline;
+    }
+    
+    .pro .code {
+        align-items: flex-start;
+    }
+    
+    .back {
+        width: 1700px;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+    }
+
+
+
+    
+    body .img1 {
+        background: rgba(0, 0, 0, 0.85);
+        position: fixed;
+        width: 1700px;
+        height: 34%;
+        padding-top: 60%;
+        top: 0;
+    }
+    
+    .line {
+        position: absolute;
+        height: 0;
+        left: 47px;
+        right: 47px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        top: 81px;
+        width: 1626px;
+    }
+    
+    .pro {
+        font-family: "GothaPro", sans-serif;
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    
+    .code {
+        font-family: "GothaPro", sans-serif;
+        font-size: 20px;
+        color: #fed233;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    
+    .logo {
+        position: relative;
+        top: 30px;
+        left: 362px;
+        letter-spacing: 1px;
+    }
+    
+    li [type="href"] {
+        position: relative;
+        text-decoration: none;
+        color: white;
+        font-family: "GothaPro", sans-serif;
+        font-weight: bolder;
+        padding: 35px;
+        top: 18px;
+        right: 308px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    
+
+
+
+
+
+    
+    .conteiner {
+        position: relative;
+        display: flex;
+        /* align-content: space-between; */
+    }
+    
+    .infa h1::first-letter {
+        text-transform: uppercase;
+    }
+    
+    .infa h1 {
+        position: absolute;
+        color: whitesmoke;
+        z-index: 2;
+        font-family: "GothaPro", sans-serif;
+        font-weight: bolder;
+        width: 515px;
+        letter-spacing: 1px;
+        top: 293px;
+        left: 360px;
+        font-size: 36px;
+        line-height: 50px;
+        /* display: flex;
+                                                                align-items: center; */
+    }
+    
+    .line_infa {
+        position: absolute;
+        width: 118px;
+        height: 0px;
+        left: 360px;
+        top: 428px;
+        border: 1px solid #FED233;
+    }
+    
+    .infa2 h2::first-letter {
+        text-transform: uppercase;
+    }
+    
+    .infa2 h2 {
+        position: absolute;
+        z-index: 4;
+        width: 500px;
+        height: 49px;
+        left: 361px;
+        top: 437px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        letter-spacing: 0.9px;
+        align-items: center;
+        display: flex;
+    }
+    /* button .button,
+                                                        [type="button"]::first-letter {
+                                                            text-transform: uppercase;
+                                                        } */
+    
+    .button_first {
+        position: absolute;
+        display: flex;
+        width: 238px;
+        height: 52px;
+        left: 360px;
+        top: 539px;
+        background: #FED233;
+        border-radius: 7px;
+        border: 0;
+        font-family: "GothaPro", sans-serif;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 16px;
+        align-items: center;
+        color: #333333;
+        padding: 20px;
+        padding-left: 25px;
+    }
+    
+    .button_first::after {
+        content: attr(class="button_first");
+    }
+    
+    button span {
+        position: absolute;
+        width: 6px;
+        height: 10px;
+        top: 17px;
+        font-size: 22px;
+        font-weight: 100;
+        padding-left: 185px;
+    }
+    
+    .PROCOD_LOGO {
+        position: relative;
+        /* top: 282px;
+                                                            left: 1100px; */
+        width: 300px;
+        line-height: 83px;
+    }
+    
+    .img_pro {
+        position: relative;
+        top: 282px;
+        height: 70px;
+        left: 1163px;
+    }
+    
+    .img_code {
+        position: relative;
+        top: 272px;
+        height: 70px;
+        left: 1092px;
+    }
+    
+    .block2 {
+        position: absolute;
+        background-color: #FFFFFF;
+        height: 120%;
+        width: 1700px;
+        z-index: 5;
+        top: 856px;
+    }
+    
+    .block2 .studia {
+        position: absolute;
+        width: 1000px;
+        height: 140px;
+        left: 355px;
+        top: 39px;
+        font-family: "GothaPro", sans-serif;
+        font-size: 38px;
+        display: flex;
+        align-items: center;
+        color: #333333;
+        font-weight: bolder;
+    }
+    
+    .block2 .studia2 {
+        position: relative;
+        width: 480px;
+        left: 360px;
+        top: 160px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #333333;
+    }
+    
+    .block1-6 {
+        position: relative;
+        z-index: 7;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        width: 978px;
+        border: 0 solid;
+        height: 550px;
+        top: 230px;
+        left: 359px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        /* justify-content: space-between; */
+    }
+    /* Блок первый  */
+    
+    .block1-6 .block-1 {
+        /* position: absolute; */
+        position: relative;
+        z-index: 8;
+        border: 0 solid;
+        height: 252px;
+        width: 303px;
+        left: -30px;
+        align-items: center;
+    }
+    
+    .block-1 img {
+        position: absolute;
+        top: 43px;
+        left: 117px;
+        width: 70px;
+    }
+    
+    .block-1 span {
+        position: absolute;
+        width: 48px;
+        height: 49px;
+        left: 71px;
+        top: 129px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4F4F4F;
+    }
+    
+    .line_block1 {
+        position: absolute;
+        height: 0;
+        left: 16px;
+        right: 47px;
+        border: 1px solid #BDBDBD;
+        top: 206px;
+        width: 271px;
+    }
+    
+    .block-1 a {
+        position: absolute;
+        height: 19px;
+        left: 18px;
+        top: 225px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        /* line-height: 23px; */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #BDBDBD;
+        text-decoration: none;
+    }
+    
+    .block-1 a span {
+        position: absolute;
+        width: 6px;
+        height: 10px;
+        left: 266px;
+        top: 3px;
+        font-size: 19px;
+        color: #BDBDBD;
+    }
+    /* Блок второй */
+    
+    .block1-6 .block-2 {
+        position: relative;
+        z-index: 8;
+        border: 0 solid;
+        height: 252px;
+        width: 303px;
+        left: 0;
+        align-items: center;
+    }
+    
+    .block-2 img {
+        position: absolute;
+        top: 42px;
+        left: 126px;
+        width: 70px;
+    }
+    
+    .block-2 span {
+        position: absolute;
+        width: 138px;
+        height: 49px;
+        left: 92px;
+        top: 129px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #4F4F4F;
+    }
+    
+    .line_block2 {
+        position: absolute;
+        height: 0;
+        left: 24px;
+        right: 47px;
+        border: 1px solid #BDBDBD;
+        top: 206px;
+        width: 271px;
+    }
+    
+    .block-2 a {
+        position: absolute;
+        height: 19px;
+        left: 25px;
+        top: 224px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        /* line-height: 23px; */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #BDBDBD;
+        text-decoration: none;
+    }
+    
+    .block-2 a span {
+        position: absolute;
+        width: 6px;
+        height: 10px;
+        left: 266px;
+        top: 3px;
+        font-size: 19px;
+        color: #BDBDBD;
+    }
+    /* Блок третий */
+    
+    .block1-6 .block-3 {
+        position: relative;
+        z-index: 8;
+        border: 0 solid;
+        height: 252px;
+        width: 303px;
+        left: 28px;
+        align-items: center;
+    }
+    
+    .block-3 img {
+        position: absolute;
+        top: 44px;
+        left: 138px;
+        width: 65px;
+    }
+    
+    .block-3 span {
+        position: absolute;
+        width: 169px;
+        height: 49px;
+        left: 74px;
+        top: 128px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4F4F4F;
+        white-space: pre;
+    }
+    
+    .line_block3 {
+        position: absolute;
+        height: 0;
+        left: 31px;
+        right: 47px;
+        border: 1px solid #BDBDBD;
+        top: 207px;
+        width: 271px;
+    }
+    
+    .block-3 a {
+        position: absolute;
+        height: 19px;
+        left: 34px;
+        top: 225px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        /* line-height: 23px; */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #BDBDBD;
+        text-decoration: none;
+    }
+    
+    .block-3 a span {
+        position: absolute;
+        width: 6px;
+        height: 10px;
+        left: 266px;
+        top: 3px;
+        font-size: 19px;
+        color: #BDBDBD;
+    }
+    /* Блок четвертый */
+    
+    .block1-6 .block-4 {
+        position: relative;
+        z-index: 8;
+        border: 0 solid;
+        height: 252px;
+        width: 303px;
+        left: -28px;
+        align-items: center;
+        top: 42px;
+    }
+    
+    .block-4 img {
+        position: absolute;
+        top: 34px;
+        left: 116px;
+        width: 70px;
+    }
+    
+    .block-4 span {
+        position: absolute;
+        /* width: 0px; */
+        height: 49px;
+        left: 28px;
+        top: 124px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #4F4F4F;
+        white-space: pre;
+    }
+    
+    .line_block4 {
+        position: absolute;
+        height: 0;
+        left: 14px;
+        right: 47px;
+        border: 1px solid #BDBDBD;
+        top: 204px;
+        width: 271px;
+    }
+    
+    .block-4 a {
+        position: absolute;
+        height: 19px;
+        left: 16px;
+        top: 220px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        /* line-height: 23px; */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #BDBDBD;
+        text-decoration: none;
+    }
+    
+    .block-4 a span {
+        position: absolute;
+        width: 6px;
+        height: 10px;
+        left: 266px;
+        top: 3px;
+        font-size: 19px;
+        color: #BDBDBD;
+    }
+    /* Блок пятый */
+    
+    .block1-6 .block-5 {
+        position: relative;
+        z-index: 8;
+        border: 0 solid;
+        height: 252px;
+        width: 303px;
+        left: 20px;
+        align-items: center;
+        align-content: space-around;
+        top: 44px;
+    }
+    
+    .block-5 img {
+        position: absolute;
+        top: 30px;
+        left: 117px;
+        width: 62px;
+    }
+    
+    .block-5 span {
+        position: absolute;
+        width: 269px;
+        height: 49px;
+        left: 40px;
+        top: 123px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #4F4F4F;
+        white-space: pre;
+    }
+    
+    .line_block5 {
+        position: absolute;
+        height: 0;
+        left: 6px;
+        right: 47px;
+        border: 1px solid #BDBDBD;
+        top: 200px;
+        width: 271px;
+    }
+    
+    .block-5 a {
+        position: absolute;
+        height: 19px;
+        left: 6px;
+        top: 219px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        /* line-height: 23px; */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #BDBDBD;
+        text-decoration: none;
+    }
+    
+    .block-5 a span {
+        position: absolute;
+        width: 6px;
+        height: 10px;
+        left: 266px;
+        top: 3px;
+        font-size: 19px;
+        color: #BDBDBD;
+    }
+    /* Блок шестой */
+    
+    .block1-6 .block-6 {
+        position: relative;
+        z-index: 8;
+        border: 0 solid;
+        height: 252px;
+        width: 303px;
+        left: 42px;
+        align-items: center;
+        align-content: space-around;
+        top: 44px;
+    }
+    
+    .block-6 img {
+        position: absolute;
+        top: 40px;
+        left: 121px;
+        width: 67px;
+    }
+    
+    .block-6 span {
+        position: absolute;
+        width: 170px;
+        height: 49px;
+        left: 77px;
+        top: 124px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4F4F4F;
+        white-space: pre;
+    }
+    
+    .line_block6 {
+        position: absolute;
+        height: 0;
+        left: 14px;
+        right: 47px;
+        border: 1px solid #BDBDBD;
+        top: 200px;
+        width: 271px;
+    }
+    
+    .block-6 a {
+        position: absolute;
+        height: 19px;
+        left: 21px;
+        top: 220px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        /* line-height: 23px; */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #BDBDBD;
+        text-decoration: none;
+    }
+    
+    .block-6 a span {
+        position: absolute;
+        width: 6px;
+        height: 10px;
+        left: 266px;
+        top: 3px;
+        font-size: 19px;
+        color: #BDBDBD;
+    }
+    
+    .block2 .block-1:hover {
+        border: 1px solid #FED233;
+        border-radius: 7px;
+        height: 258px;
+        width: 304px;
+    }
+    
+    .block2 .block-2:hover {
+        border: 1px solid #FED233;
+        border-radius: 7px;
+        height: 258px;
+        width: 304px;
+        position: relative;
+        left: 8px;
+        top: 3px;
+        position: relative;
+    }
+    
+    .block2 .block-3:hover {
+        border: 1px solid #FED233;
+        border-radius: 7px;
+        height: 258px;
+        width: 304px;
+        top: 3px;
+        left: 47px;
+    }
+    
+    .block2 .block-4:hover {
+        border: 1px solid #FED233;
+        border-radius: 7px;
+        height: 258px;
+        width: 304px;
+        position: relative;
+        top: 43px;
+    }
+    
+    .block2 .block-5:hover {
+        border: 1px solid #FED233;
+        border-radius: 7px;
+        height: 258px;
+        width: 304px;
+        position: relative;
+        left: 10px;
+        top: 43px;
+    }
+    
+    .block2 .block-6:hover {
+        border: 1px solid #FED233;
+        border-radius: 7px;
+        height: 258px;
+        width: 304px;
+        position: relative;
+        left: 45px;
+        top: 43px;
+    }
+    /* Третий Блок сайта */
+    
+    .pages3 {
+        position: relative;
+        background: #f9fafc;
+        height: 67%;
+        width: 1700px;
+        z-index: 12;
+        top: 230px
+    }
+    
+    .first h3 {
+        position: absolute;
+        top: 150px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 34px;
+        width: 1000px;
+        letter-spacing: 2px;
+        left: 360px;
+    }
+    
+    .first p {
+        position: absolute;
+        width: 680px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: -0.01em;
+        color: #333333;
+        line-height: 25px;
+        top: 224px;
+        left: 360px;
+    }
+    /* первый блок второго раздела */
+    
+    .m32 {
+        position: absolute;
+    }
+    
+    .m32 h3 {
+        position: absolute;
+        width: 357px;
+        height: 49px;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 800;
+        font-size: 28px;
+        color: #FED233;
+        letter-spacing: -1px;
+        left: 363px;
+        top: 374px;
+    }
+    
+    .line_block1-3 {
+        position: relative;
+        height: 0;
+        left: 362px;
+        right: 47px;
+        border: 1px solid #BDBDBD;
+        top: 446px;
+        width: 284px;
+    }
+    
+    .m32 span {
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        position: absolute;
+        width: 250px;
+        left: 360px;
+        top: 456px;
+        font-family: "GothaPro", sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        color: #828282;
+        letter-spacing: -0.02em;
+    }
+    /* второй блок второго раздела */
+    
+    .people h3 {
+        position: relative;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 800;
+        font-size: 28px;
+        color: #FED233;
+        letter-spacing: -1px;
+        left: 715px;
+        top: 403px;
+        width: 200px;
+    }
+    
+    .people .line_block1-2 {
+        position: relative;
+        height: 0;
+        left: 715px;
+        right: 47px;
+        border: 1px solid #BDBDBD;
+        top: 386px;
+        width: 284px;
+    }
+    
+    .people span {
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        position: absolute;
+        width: 250px;
+        left: 715px;
+        top: 455px;
+        font-family: "GothaPro", sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        color: #828282;
+        letter-spacing: -0.03em;
+    }
+    /* третий блок второго раздела */
+    
+    .years h3 {
+        position: absolute;
+        font-family: "GothaPro", sans-serif;
+        font-weight: 800;
+        font-size: 28px;
+        color: #FED233;
+        letter-spacing: -1px;
+        left: 1065px;
+        top: 404px;
+        margin: 0;
+    }
+    
+    .years .line_block1-1 {
+        position: absolute;
+        height: 0;
+        left: 1066px;
+        right: 47px;
+        border: 1px solid #BDBDBD;
+        top: 446px;
+        width: 284px;
+    }
+    
+    .years span {
+        font-family: "GothaPro", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        position: absolute;
+        width: 200px;
+        left: 1065px;
+        top: 456px;
+        font-family: "GothaPro", sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        color: #828282;
+        letter-spacing: -0.03em;
+    }
+    /* Четвертый блок сайта */
+    
+    .pages4 {
+        position: relative;
+        width: 1700px;
+        height: 130%;
+        top: 0px;
+    }
+    
+    .pages4 h3 {
+        display: flex;
+        position: absolute;
+        font-family: "GothaPro", sans-serif;
+        font-weight: bolder;
+        font-size: 34px;
+        letter-spacing: 0.06em;
+        width: 900px;
+        z-index: 13;
+        color: white;
+        top: 360px;
+        left: 360px;
+        /* scroll-margin: none; */
+        align-items: center;
+    }
+    
+    .pages4 input {
+        position: absolute;
+        width: 460px;
+        height: 59px;
+        left: 405px;
+        top: 2847px;
+        background: #FFFFFF;
+        border-radius: 7px;
+    }
